@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "teste:blocks/infusorlados",
+    "up": "teste:blocks/infusorlados",
+    "north": "teste:blocks/infusorlados",
+    "east": "teste:blocks/infusorlados",
+    "south": "teste:blocks/infusorlados",
+    "west": "teste:blocks/infusorlados",
+    "particle": "teste:blocks/infusorlados"
+  }
+}

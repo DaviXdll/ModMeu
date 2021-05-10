@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "teste:block/maquinateste"
+    },
+    "facing=east": {
+      "model": "teste:block/maquinateste",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "teste:block/maquinateste",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "teste:block/maquinateste",
+      "y": 270
+    }
+  }
+}
