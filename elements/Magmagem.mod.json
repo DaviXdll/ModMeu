@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "magma_nugget",
+    "texture": "ruby",
     "customModelName": "Normal",
-    "name": "magma nugget",
-    "rarity": "RARE",
+    "name": "Magma gem",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
     },
@@ -28,12 +28,6 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onEntityHitWith": {
-      "name": "GemaardenteLivingEntityIsHitWithItem"
-    },
-    "onItemInInventoryTick": {
-      "name": "EmaardenteItemInInventoryTick"
-    }
+    "inventoryStackSize": 64
   }
 }

@@ -202,6 +202,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "EmaardenteItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emaardente_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magmagemcrafting",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmagemcrafting",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Magmagem",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magmagem"
     }
   ],
   "variable_elements": [],
@@ -219,6 +255,7 @@
     "en_us": {
       "item.teste.testemusci": "Testemusic",
       "item.teste.diamante_invertido": "Diamante Invertido",
+      "item.teste.magmagem": "Magma gem",
       "item.teste.armaduradediamanteinvertido_chestplate": "Peitoral De Diamante Invertido",
       "block.teste.maquinateste": "Maquinateste",
       "item.teste.armaduradediamanteinvertido_leggings": "Calças De Diamante Invertido",

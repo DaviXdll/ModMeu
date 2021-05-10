@@ -9,9 +9,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.teste.procedures.GemaardenteLivingEntityIsHitWithItemProcedure;
+import net.mcreator.teste.procedures.EmaardenteItemInInventoryTickProcedure;
 import net.mcreator.teste.TesteModElements;
 
 import java.util.Map;
@@ -63,6 +65,19 @@ public class GemaardenteItem extends TesteModElements.ModElement {
 				GemaardenteLivingEntityIsHitWithItemProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				EmaardenteItemInInventoryTickProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

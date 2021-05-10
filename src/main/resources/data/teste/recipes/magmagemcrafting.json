@@ -1,0 +1,42 @@
+{
+  "group": "teste",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "teste:gemaardente"
+    },
+    "1": {
+      "item": "teste:gemaardente"
+    },
+    "2": {
+      "item": "teste:gemaardente"
+    },
+    "3": {
+      "item": "teste:gemaardente"
+    },
+    "4": {
+      "item": "teste:gemaardente"
+    },
+    "5": {
+      "item": "teste:gemaardente"
+    },
+    "6": {
+      "item": "teste:gemaardente"
+    },
+    "7": {
+      "item": "teste:gemaardente"
+    },
+    "8": {
+      "item": "teste:gemaardente"
+    }
+  },
+  "result": {
+    "item": "teste:deleted_mod_element",
+    "count": 1
+  }
+}
