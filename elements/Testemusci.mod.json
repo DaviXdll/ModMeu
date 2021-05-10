@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "discodemusica",
+    "name": "Testemusic",
+    "description": "ssadaw",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:rapdokakashiobitoerin"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

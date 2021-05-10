@@ -1,0 +1,39 @@
+{
+  "group": "teste",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "teste:diamante_invertido"
+    },
+    "2": {
+      "item": "teste:diamante_invertido"
+    },
+    "3": {
+      "item": "teste:diamante_invertido"
+    },
+    "4": {
+      "item": "teste:diamante_invertido"
+    },
+    "5": {
+      "item": "teste:diamante_invertido"
+    },
+    "6": {
+      "item": "teste:diamante_invertido"
+    },
+    "7": {
+      "item": "teste:diamante_invertido"
+    },
+    "8": {
+      "item": "teste:diamante_invertido"
+    }
+  },
+  "result": {
+    "item": "teste:armaduradediamanteinvertido_chestplate",
+    "count": 1
+  }
+}

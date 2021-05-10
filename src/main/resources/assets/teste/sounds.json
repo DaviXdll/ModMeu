@@ -1,0 +1,12 @@
+{
+  "rapdokakashiobitoerin": {
+    "category": "music",
+    "subtitle": "subtitles.rapdokakashiobitoerin",
+    "sounds": [
+      {
+        "name": "teste:rap_do_kakashi__obito_e_rin_naruto_-_ninjas_meremp3_160k",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "teste:blocks/minerio_de_diamante_invertido",
+    "up": "teste:blocks/minerio_de_diamante_invertido",
+    "north": "teste:blocks/minerio_de_diamante_invertido",
+    "east": "teste:blocks/minerio_de_diamante_invertido",
+    "south": "teste:blocks/minerio_de_diamante_invertido",
+    "west": "teste:blocks/minerio_de_diamante_invertido",
+    "particle": "teste:blocks/minerio_de_diamante_invertido"
+  }
+}

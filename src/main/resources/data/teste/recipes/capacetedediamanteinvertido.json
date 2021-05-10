@@ -1,0 +1,29 @@
+{
+  "group": "teste",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "teste:diamante_invertido"
+    },
+    "1": {
+      "item": "teste:diamante_invertido"
+    },
+    "2": {
+      "item": "teste:diamante_invertido"
+    },
+    "3": {
+      "item": "teste:diamante_invertido"
+    },
+    "5": {
+      "item": "teste:diamante_invertido"
+    }
+  },
+  "result": {
+    "item": "teste:armaduradediamanteinvertido_helmet",
+    "count": 1
+  }
+}

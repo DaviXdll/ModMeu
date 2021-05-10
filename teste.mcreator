@@ -1,0 +1,173 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Infursormetalurgico",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infursormetalurgico"
+    },
+    {
+      "name": "Fly",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Teste",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teste"
+    },
+    {
+      "name": "DiamanteInvertido",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamante_invertido"
+    },
+    {
+      "name": "Armaduradediamanteinvertido",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armaduradediamanteinvertido",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Capacetedediamanteinvertido",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "capacetedediamanteinvertido",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "PeitoralDeDiamanteInvertido",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "peitoral_de_diamante_invertido",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "BotasDeDiamanteInvertido",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "botas_de_diamante_invertido",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "CalcasDeDiamanteInvertido",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calcas_de_diamante_invertido",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "Mineriodediamanteinvertido",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineriodediamanteinvertido"
+    },
+    {
+      "name": "Testemusci",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testemusci"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "rapdokakashiobitoerin",
+      "files": [
+        "rap_do_kakashi__obito_e_rin_naruto_-_ninjas_meremp3_160k"
+      ],
+      "category": "music",
+      "subtitle": "Rap do Kakashi, Obito e Rin "
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.teste.testemusci": "Testemusic",
+      "item.teste.diamante_invertido": "Diamante Invertido",
+      "item.teste.armaduradediamanteinvertido_chestplate": "Peitoral De Diamante Invertido",
+      "subtitles.rapdokakashiobitoerin": "Rap do Kakashi, Obito e Rin ",
+      "item.teste.armaduradediamanteinvertido_helmet": "Capacete De Diamante Invertido",
+      "item.teste.testemusci.desc": "ssadaw",
+      "item.teste.armaduradediamanteinvertido_boots": "Botas De Diamante Invertido",
+      "item.teste.armaduradediamanteinvertido_leggings": "Calças De Diamante Invertido",
+      "block.teste.mineriodediamanteinvertido": "Minerio De Diamante Invertido"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Crafting",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "teste",
+    "modName": "Teste",
+    "version": "1.0.0",
+    "author": "Davi1.dll, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.teste",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
