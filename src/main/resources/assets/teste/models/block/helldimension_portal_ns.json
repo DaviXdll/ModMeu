@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "teste:blocks/ciano",
-    "portal": "teste:blocks/ciano"
+    "particle": "teste:blocks/coisafeia",
+    "portal": "teste:blocks/coisafeia"
   },
   "elements": [
     {

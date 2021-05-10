@@ -129,6 +129,32 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "GemaardenteLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gemaardente_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gemaardente",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gemaardente"
     }
   ],
   "variable_elements": [],
@@ -150,6 +176,7 @@
       "subtitles.rapdokakashiobitoerin": "Rap do Kakashi, Obito e Rin ",
       "item.teste.armaduradediamanteinvertido_helmet": "Capacete De Diamante Invertido",
       "item.teste.testemusci.desc": "ssadaw",
+      "item.teste.gemaardente": "magma nugget",
       "item.teste.armaduradediamanteinvertido_boots": "Botas De Diamante Invertido",
       "item.teste.armaduradediamanteinvertido_leggings": "Calças De Diamante Invertido",
       "item.teste.helldimension": "Helldimension Portal Igniter",
