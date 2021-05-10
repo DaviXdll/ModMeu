@@ -113,11 +113,11 @@ public class InfursormetalurgicoGui extends TesteModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 13, 34) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 44) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 69, 34) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 44) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 136, 34) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 106, 44) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;

@@ -64,9 +64,11 @@ public class InfursormetalurgicoGuiWindow extends ContainerScreen<Infursormetalu
 		super.tick();
 	}
 
-	@Override
-	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Infusor Metalurgico", 44, 10, -12829636);
+	@Override protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		    	this.font.drawString(ms, "Infusor Metalurgico",
+					44, 10, -12829636);
+		    	this.font.drawString(ms, "-+"",
+					86, 46, -12829636);
 	}
 
 	@Override

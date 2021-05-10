@@ -5,7 +5,7 @@
       "name": "Infursormetalurgico",
       "type": "gui",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "infursormetalurgico"
