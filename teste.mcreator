@@ -117,6 +117,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "testemusci"
+    },
+    {
+      "name": "Daviboiola",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "daviboiola"
     }
   ],
   "variable_elements": [],
@@ -134,6 +143,7 @@
     "en_us": {
       "item.teste.testemusci": "Testemusic",
       "item.teste.diamante_invertido": "Diamante Invertido",
+      "block.teste.daviboiola": "Daviboiola",
       "item.teste.armaduradediamanteinvertido_chestplate": "Peitoral De Diamante Invertido",
       "subtitles.rapdokakashiobitoerin": "Rap do Kakashi, Obito e Rin ",
       "item.teste.armaduradediamanteinvertido_helmet": "Capacete De Diamante Invertido",
