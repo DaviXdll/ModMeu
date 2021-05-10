@@ -75,6 +75,26 @@
           "x": 183,
           "y": 94
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "_do_minecraft.png",
+          "use1Xscale": false,
+          "name": "_do_minecraft.png",
+          "x": 107,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "seta_do_minecraft.png",
+          "use1Xscale": false,
+          "name": "seta_do_minecraft.png",
+          "x": 136,
+          "y": 36
+        }
       }
     ]
   }

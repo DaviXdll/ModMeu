@@ -51,6 +51,10 @@ public class FundidorDeMineriosGUIGuiWindow extends ContainerScreen<FundidorDeMi
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("teste:textures/_do_minecraft.png"));
+		this.blit(ms, this.guiLeft + -18, this.guiTop + -14, 0, 0, 256, 256, 256, 256);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("teste:textures/seta_do_minecraft.png"));
+		this.blit(ms, this.guiLeft + 10, this.guiTop + -1, 0, 0, 256, 256, 256, 256);
 		RenderSystem.disableBlend();
 	}
 
