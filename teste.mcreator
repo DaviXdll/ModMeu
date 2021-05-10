@@ -117,6 +117,18 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "testemusci"
+    },
+    {
+      "name": "Helldimension",
+      "type": "dimension",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "helldimension",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [],
@@ -140,6 +152,7 @@
       "item.teste.testemusci.desc": "ssadaw",
       "item.teste.armaduradediamanteinvertido_boots": "Botas De Diamante Invertido",
       "item.teste.armaduradediamanteinvertido_leggings": "Calças De Diamante Invertido",
+      "item.teste.helldimension": "Helldimension Portal Igniter",
       "block.teste.mineriodediamanteinvertido": "Minerio De Diamante Invertido"
     }
   },

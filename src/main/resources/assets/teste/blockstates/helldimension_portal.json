@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "teste:block/helldimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "teste:block/helldimension_portal_ns"
+    }
+  }
+}
