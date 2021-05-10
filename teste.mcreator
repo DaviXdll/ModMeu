@@ -238,6 +238,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magmagem"
+    },
+    {
+      "name": "FundidorDeMinerios",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fundidor_de_minerios"
+    },
+    {
+      "name": "FundidorDeMineriosGUI",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fundidor_de_minerios_gui"
     }
   ],
   "variable_elements": [],
@@ -253,6 +271,7 @@
   ],
   "language_map": {
     "en_us": {
+      "block.teste.fundidor_de_minerios": "Fundidor De Minerios",
       "item.teste.testemusci": "Testemusic",
       "item.teste.diamante_invertido": "Diamante Invertido",
       "item.teste.magmagem": "Magma gem",
