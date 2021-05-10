@@ -14,10 +14,14 @@
     "fluidBlock": {
       "value": "Blocks.FLOWING_LAVA"
     },
+    "airColor": {
+      "value": -52429,
+      "falpha": 0.0
+    },
     "canRespawnHere": false,
     "hasFog": false,
     "isDark": false,
-    "doesWaterVaporize": false,
+    "doesWaterVaporize": true,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
@@ -25,18 +29,18 @@
       "value": "Blocks.MAGMA"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "LAVA"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 8,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": "block.fire.ambient"
     },
     "igniterName": "Helldimension Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },
     "texture": "diamond_pickaxe",
-    "portalTexture": "ciano",
+    "portalTexture": "coisafeia",
     "enablePortal": true
   }
 }
