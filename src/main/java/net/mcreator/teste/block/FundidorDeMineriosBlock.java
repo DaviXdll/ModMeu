@@ -28,7 +28,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.teste.procedures.UIFundidorAbertaProcedure;
+import net.mcreator.teste.procedures.TestProcedure;
 import net.mcreator.teste.gui.FundidorDeMineriosGUIGui;
 import net.mcreator.teste.TesteModElements;
 
@@ -91,12 +91,11 @@ public class FundidorDeMineriosBlock extends TesteModElements.ModElement {
 			Direction direction = hit.getFace();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				UIFundidorAbertaProcedure.executeProcedure($_dependencies);
+				TestProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}
