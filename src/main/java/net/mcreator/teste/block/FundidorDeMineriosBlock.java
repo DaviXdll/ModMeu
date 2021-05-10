@@ -10,6 +10,7 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.loot.LootContext;
@@ -27,10 +28,13 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.teste.procedures.UIFundidorAbertaProcedure;
 import net.mcreator.teste.gui.FundidorDeMineriosGUIGui;
 import net.mcreator.teste.TesteModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
@@ -83,6 +87,16 @@ public class FundidorDeMineriosBlock extends TesteModElements.ModElement {
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
+			}
+			Direction direction = hit.getFace();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				UIFundidorAbertaProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}
