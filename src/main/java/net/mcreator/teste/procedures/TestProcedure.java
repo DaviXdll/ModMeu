@@ -1,11 +1,26 @@
 package net.mcreator.teste.procedures;
 
+import net.minecraftforge.items.IItemHandlerModifiable;
+import net.minecraftforge.items.CapabilityItemHandler;
+
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+
+import net.mcreator.teste.item.GoldoniaItem;
+import net.mcreator.teste.TesteModElements;
+import net.mcreator.teste.TesteMod;
+
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
+
 @TesteModElements.ModElement.Tag
 public class TestProcedure extends TesteModElements.ModElement {
-
 	public TestProcedure(TesteModElements instance) {
 		super(instance, 20);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -29,12 +44,10 @@ public class TestProcedure extends TesteModElements.ModElement {
 				TesteMod.LOGGER.warn("Failed to load dependency world for procedure Test!");
 			return;
 		}
-
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		boolean drop = false;
 		if (((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
@@ -137,7 +150,5 @@ public class TestProcedure extends TesteModElements.ModElement {
 				}
 			}
 		}
-
 	}
-
 }
