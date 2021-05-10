@@ -173,6 +173,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "maquinateste"
+    },
+    {
+      "name": "EmaardenteItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emaardente_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
