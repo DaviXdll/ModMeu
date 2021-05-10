@@ -129,13 +129,15 @@ public class MineriodediamanteinvertidoBlock extends TesteModElements.ModElement
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("teste:helldimension")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(20)
-					.square().func_242731_b(1);
+					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("mineriodediamanteinvertido"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("teste:mineriodediamanteinvertido"), configuredFeature);
 		}
