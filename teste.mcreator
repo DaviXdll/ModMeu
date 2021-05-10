@@ -155,6 +155,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gemaardente"
+    },
+    {
+      "name": "Goldonia",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldonia"
     }
   ],
   "variable_elements": [],
@@ -173,12 +182,13 @@
       "item.teste.testemusci": "Testemusic",
       "item.teste.diamante_invertido": "Diamante Invertido",
       "item.teste.armaduradediamanteinvertido_chestplate": "Peitoral De Diamante Invertido",
+      "item.teste.armaduradediamanteinvertido_leggings": "Calças De Diamante Invertido",
       "subtitles.rapdokakashiobitoerin": "Rap do Kakashi, Obito e Rin ",
+      "item.teste.goldonia": "Goldonia",
       "item.teste.armaduradediamanteinvertido_helmet": "Capacete De Diamante Invertido",
       "item.teste.testemusci.desc": "ssadaw",
       "item.teste.gemaardente": "magma nugget",
       "item.teste.armaduradediamanteinvertido_boots": "Botas De Diamante Invertido",
-      "item.teste.armaduradediamanteinvertido_leggings": "Calças De Diamante Invertido",
       "item.teste.helldimension": "Helldimension Portal Igniter",
       "block.teste.mineriodediamanteinvertido": "Minerio De Diamante Invertido"
     }
