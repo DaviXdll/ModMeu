@@ -160,7 +160,7 @@
       "name": "Goldonia",
       "type": "item",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "goldonia"
@@ -194,6 +194,7 @@
       "block.teste.maquinateste": "Maquinateste",
       "item.teste.armaduradediamanteinvertido_leggings": "Calças De Diamante Invertido",
       "subtitles.rapdokakashiobitoerin": "Rap do Kakashi, Obito e Rin ",
+      "item.teste.goldonia": "Goldonia",
       "item.teste.armaduradediamanteinvertido_helmet": "Capacete De Diamante Invertido",
       "item.teste.testemusci.desc": "ssadaw",
       "item.teste.gemaardente": "magma nugget",
